@@ -222,18 +222,105 @@ flowchart TD
 ---
 
 
-## 🧱 System Architecture
+## 🧱 System Architecture  
 
 ```mermaid
+graph TD
 
+    %% User Layer
+    A[User Mobile App] --> B[API Gateway]
+
+    %% Core Backend
+    B --> C[Authentication Service]
+    B --> D[Risk Engine]
+
+    %% Risk & Pricing
+    D --> D1[Risk Scoring Model]
+    D --> D2[Weekly Premium Calculator]
+
+    %% Monitoring Layer
+    B --> E[Monitoring Engine]
+    E --> E1[Weather API]
+    E --> E2[Traffic / Zone Data]
+    E --> E3[Platform Activity Data]
+
+    %% Trigger System
+    E --> F[Trigger Engine]
+
+    %% Fraud Detection
+    F --> G[Fraud Detection Layer]
+    G --> G1[Location Validation]
+    G --> G2[Behavioral Analysis ML]
+    G --> G3[Graph-Based Fraud Detection]
+    G --> G4[Trust Scoring Engine]
+
+    %% Claim Processing
+    G --> H[Claim Engine]
+
+    %% Payments
+    H --> I[Payment Gateway]
+
+    %% Output
+    I --> J[User Dashboard]
+    H --> K[Admin Dashboard]
 ```
 
 ---
 
 ## 🔄 Full Workflow
 
-```mermaid
+```markdown
+## 🔄 End-to-End Workflow  
 
+```mermaid
+flowchart TD
+
+    %% Onboarding
+    A[User Registration] --> B[Profile Creation]
+    B --> C[Risk Assessment]
+
+    %% Pricing
+    C --> D[Weekly Premium Assigned]
+
+    %% Monitoring Loop
+    D --> E[Continuous Monitoring]
+
+    %% Data Sources
+    E --> E1[Weather Data]
+    E --> E2[Traffic Data]
+    E --> E3[User Activity Data]
+
+    %% Trigger Check
+    E --> F{Disruption Detected?}
+
+    F -- No --> E
+    F -- Yes --> G[Trigger Event Created]
+
+    %% Fraud Check
+    G --> H[Fraud Detection Layer]
+
+    %% Risk Classification
+    H --> I{Risk Level}
+
+    I -- Low --> J[Instant Approval]
+    I -- Medium --> K[Soft Verification]
+    I -- High --> L[Deep Fraud Analysis]
+
+    %% Decision
+    L --> M{Fraud?}
+    M -- Yes --> N[Reject + Flag Network]
+    M -- No --> O[Delayed Approval]
+
+    K --> O
+    J --> P[Payout Processing]
+    O --> P
+
+    %% Final Step
+    P --> Q[Payment Gateway]
+    Q --> R[User Receives Payout]
+
+    %% Dashboard Update
+    R --> S[Dashboard Updated]
 ```
 
 ---
