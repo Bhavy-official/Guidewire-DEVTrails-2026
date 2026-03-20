@@ -269,9 +269,6 @@ graph TD
 
 ## 🔄 Full Workflow
 
-```markdown
-## 🔄 End-to-End Workflow  
-
 ```mermaid
 flowchart TD
 
@@ -323,6 +320,7 @@ flowchart TD
     R --> S[Dashboard Updated]
 ```
 
+
 ---
 
 ## 📈 Dashboard
@@ -356,11 +354,17 @@ flowchart TD
 ## 🚀 Deliverables Covered
 
 ✔ Persona workflow
+
 ✔ Weekly pricing model
+
 ✔ Parametric triggers
+
 ✔ AI risk engine
+
 ✔ Fraud detection system
+
 ✔ Adversarial defense
+
 ✔ Architecture design
 
 ---
