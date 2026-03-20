@@ -6,11 +6,13 @@
 
 ---
 
-## Demo Preview
+## 🎥 Demo
 
-> *(Add PPT / demo walkthrough link here)*
+- **2-Minute Demo Video**  
+  [Watch here](https://drive.google.com/file/d/1QpKRN_w1MqBaSLieOQ_TOMhmhUARaWJQ/view?usp=drive_link)
 
-![Demo](./assets/demo.mp4)
+- **Presentation (PPT)**  
+  [View slides](https://canva.link/2q0zq8s24fj3yw9)
 
 ---
 
