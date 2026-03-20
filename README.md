@@ -1,208 +1,308 @@
-# 🚀 AI-Powered Parametric Insurance for Gig Workers  
+# AI-Powered Parametric Insurance for Gig Workers  
+
 ### Guidewire DEVTrails 2026 Submission  
 
----
-
-## 🎥 Demo Preview  
-> *add the ppt video demo thing here*  
-
-![Demo](./assets/demo.gif)
+**Team: Code Brewers**
 
 ---
 
-## 📌 Problem Statement  
+## Demo Preview
 
-India’s gig economy workers (Zomato, Swiggy, Zepto, Amazon, etc.) face **frequent income loss** due to uncontrollable external disruptions such as:
+> *(Add PPT / demo walkthrough link here)*
 
-- Extreme weather (rain, heat, floods)  
-- Pollution spikes  
-- Curfews / strikes / zone shutdowns  
-
-Currently, **no system compensates them for lost working hours**, forcing them to absorb financial shocks.
+![Demo](./assets/demo.mp4)
 
 ---
 
-## 💡 Our Solution  
+## 1. Problem Statement
 
-We propose a **fully automated AI-powered parametric insurance platform** that:
+Gig workers across platforms such as Zomato, Swiggy, Zepto, and Amazon frequently experience income loss due to external disruptions:
 
-- Predicts risk dynamically  
-- Monitors real-world disruption signals  
-- Automatically triggers claims  
-- Instantly pays out lost income  
+* extreme weather (rain, heat, floods)
+* pollution spikes
+* curfews, strikes, or zone shutdowns
 
-👉 No paperwork. No manual claims. No delays.  
-
----
-
-## 🎯 Target Persona  
-
-**Urban Delivery Partner (Food / Grocery / E-commerce)**  
-
-### Example Scenario  
-- A delivery rider operates in a flood-prone area  
-- Heavy rainfall halts deliveries  
-- System detects disruption + inactivity  
-- Claim auto-triggered  
-- Instant payout credited  
+There is currently no system that compensates them for lost working hours. As a result, workers are forced to absorb these financial shocks.
 
 ---
 
-## ⚙️ Core Features  
+## 2. Solution
 
-### 🧠 AI-Powered Risk Assessment  
-- Weekly dynamic premium pricing  
-- Risk scoring based on:
-  - Location risk  
-  - Historical disruptions  
-  - Worker behavior  
+We propose a parametric insurance platform that:
 
----
+* dynamically assesses risk
+* continuously monitors real-world signals
+* automatically triggers claims
+* processes payouts instantly
 
-### 🔍 Intelligent Fraud Detection  
-- GPS spoof detection  
-- Behavioral anomaly detection  
-- Duplicate claim prevention  
-- Cross-user fraud ring detection  
+The system is designed to operate with zero friction:
+no paperwork, no manual claims, and no delays.
 
 ---
 
-### ⚡ Parametric Automation  
-- Real-time disruption monitoring  
-- Automatic claim triggering  
-- Zero-touch payout system  
+## 3. Target User
+
+Urban delivery partners working in food, grocery, and e-commerce ecosystems.
+
+**Example scenario**
+
+* A rider operates in a flood-prone zone
+* Heavy rainfall halts deliveries
+* The system detects disruption and inactivity
+* A claim is triggered automatically
+* The payout is credited instantly
 
 ---
 
-### 🔗 Integration Layer  
-- Weather APIs (or simulated data)  
-- Traffic & accessibility signals  
-- Mock delivery platform data  
-- Payment gateway (sandbox mode)  
+## 4. Core Capabilities
+
+### Risk Assessment
+
+* weekly dynamic premium pricing
+* personalized risk scoring based on:
+
+  * location
+  * historical disruptions
+  * user behavior
 
 ---
 
-## 💸 Weekly Pricing Model  
+### Fraud Detection
 
-Designed for gig economy cash flow:
-
-- Premium = f(risk_score, disruption_probability)  
-- Updated weekly  
-- Micro-payments aligned with earnings  
-
----
-
-## 📊 Parametric Triggers  
-
-| Trigger Type   | Condition                  | Action            |
-|---------------|---------------------------|-------------------|
-| Weather       | Rainfall > threshold      | Claim triggered   |
-| Pollution     | AQI unsafe                | Claim triggered   |
-| Activity Drop | Sudden delivery drop      | Verified trigger  |
-| Zone Lock     | Curfew / closure          | Claim triggered   |
+* GPS spoof detection
+* behavioral anomaly detection
+* duplicate claim prevention
+* cross-user fraud ring detection
 
 ---
 
-# 🚨 PHASE 1 CRISIS: MARKET CRASH SCENARIO  
+### Parametric Automation
 
-## ⚠️ The Threat  
-
-A coordinated fraud ring:
-
-- 500+ delivery agents  
-- Organized via Telegram  
-- Using **advanced GPS spoofing tools**  
-- Faking presence in high-risk zones  
-- Triggering mass false claims  
-
-👉 Result: **Liquidity pool drained instantly**
-
-👉 Conclusion:  
-**Simple GPS verification is DEAD**
+* real-time disruption monitoring
+* automatic claim triggering
+* zero-touch payouts
 
 ---
 
-# 🛡️ ADVERSARIAL DEFENSE & ANTI-SPOOFING STRATEGY  
+### Integration Layer
+
+* weather APIs or simulated inputs
+* traffic and zone signals
+* platform activity data
+* payment gateway (sandbox)
 
 ---
 
-## 🧠 1. Differentiation: Real vs Fake Worker  
+## 5. Pricing Model
 
-We move beyond GPS → into **behavioral intelligence**
+Premiums are computed as a function of risk score and disruption probability.
 
-### ✅ Genuine Worker  
-- Continuous movement  
-- Realistic delivery patterns  
-- Natural idle gaps  
-- Consistent device identity  
-
-### 🚫 Fraudulent Actor  
-- Static location + high claims  
-- Identical patterns across users  
-- Unrealistic clustering  
-- Synchronized behavior  
-
-👉 **We validate behavior, not coordinates**
+* updated weekly
+* aligned with gig worker earning cycles
+* designed for micro-payments
 
 ---
 
-## 📊 2. Data Signals (Beyond GPS)  
+## 6. Parametric Triggers
 
-### 📍 Location Intelligence  
-- GPS vs IP mismatch  
-- Tower triangulation  
-- Impossible jumps  
-
-### 📱 Device Fingerprinting  
-- Device ID  
-- OS patterns  
-- Emulator detection  
-
-### 📶 Network Signals  
-- Packet loss anomalies  
-- Latency inconsistencies  
-- Network switching patterns  
-
-### 🚴 Behavioral Data  
-- Delivery frequency  
-- Route history  
-- Speed & acceleration  
-
-### 🧑‍🤝‍🧑 Graph Intelligence  
-- Shared device clusters  
-- Synchronized claims  
-- Fraud ring detection  
+| Trigger Type  | Condition                  | Action           |
+| ------------- | -------------------------- | ---------------- |
+| Weather       | Rainfall exceeds threshold | Claim triggered  |
+| Pollution     | AQI crosses unsafe level   | Claim triggered  |
+| Activity Drop | Significant deviation      | Verified trigger |
+| Zone Lock     | Curfew or closure          | Claim triggered  |
 
 ---
 
-## 🧩 3. Fraud Detection Layers  
+## 7. Crisis Scenario: Coordinated Fraud Attack
 
-1. **Location Validation Layer**  
-2. **Behavioral ML Model**  
-3. **Graph-Based Fraud Detection**  
-4. **Temporal Anomaly Detection**  
-5. **Trust Scoring Engine**  
+### Threat Model
 
----
+A coordinated group of users:
 
-## ⚖️ 4. UX Balance (Critical for Judges)  
+* operates via Telegram
+* uses GPS spoofing tools
+* simulates presence in high-risk zones
+* triggers simultaneous claims
 
-We DO NOT punish honest users.
+**Impact:** rapid depletion of the liquidity pool
 
-### 🟢 Low Risk  
-- Instant payout  
-
-### 🟡 Medium Risk  
-- Soft verification  
-- Slight delay  
-
-### 🔴 High Risk  
-- Deep fraud analysis  
-- Cluster validation  
+This invalidates traditional single-signal verification approaches.
 
 ---
 
-## 🔄 Intelligent Claim Flow  
+## 8. Adversarial Defense & Anti-Spoofing Strategy
+
+### 8.1 The Problem
+
+A coordinated fraud ring can exploit location-based systems by spoofing GPS data and simulating presence in high-risk zones.
+
+In such attacks:
+
+* users remain physically inactive
+* location signals are artificially manipulated
+* claims are triggered simultaneously across a network
+
+This makes single-signal verification (GPS) unreliable.
+
+---
+
+### 8.2 Core Differentiation
+
+The system does not rely on location alone.
+Instead, it validates **consistency across independent signals**.
+
+A genuine delivery partner generates a natural behavioral footprint:
+
+* movement patterns
+* activity cycles
+* device continuity
+
+A fraudulent actor may spoof location, but cannot consistently replicate:
+
+* realistic motion patterns
+* long-term behavioral history
+* cross-user independence
+
+**Key idea:**
+A claim is trusted only when multiple signals agree over time.
+
+---
+
+### 8.3 Multi-Signal Data Layer
+
+To detect spoofing and coordinated fraud, the system evaluates signals beyond GPS:
+
+---
+
+**Location Integrity**
+
+* GPS vs IP mismatch
+* cell tower triangulation
+* detection of impossible jumps
+
+---
+
+**Device Authenticity**
+
+* device fingerprint consistency
+* emulator or spoofing tool detection
+* motion sensor validation
+
+---
+
+**Network Signals**
+
+* proxy / VPN usage
+* latency irregularities
+* shared IP clustering across users
+
+---
+
+**Behavioral Data**
+
+* delivery frequency patterns
+* session timing and duration
+* route consistency over time
+* activity vs disruption mismatch
+
+---
+
+**Graph-Level Intelligence**
+
+* clustering of users with similar signals
+* synchronized claim timing
+* shared infrastructure patterns
+
+This enables detection of **coordinated fraud rings**, not just individual anomalies.
+
+---
+
+### 8.4 Decision Layer (Trust Scoring)
+
+All signals are aggregated into a unified trust score:
+
+```
+Trust Score = weighted(
+    location integrity,
+    behavioral consistency,
+    device authenticity,
+    network trust,
+    peer correlation
+)
+```
+
+This score determines claim handling in real time.
+
+---
+
+### 8.5 Differentiation: Real vs Spoofed User
+
+| Signal Type | Genuine User         | Spoofed Actor                    |
+| ----------- | -------------------- | -------------------------------- |
+| Movement    | continuous, natural  | static or inconsistent           |
+| Behavior    | varied and realistic | repetitive or synchronized       |
+| Device      | stable identity      | shared or emulated               |
+| Network     | organic variation    | clustered / identical patterns   |
+| Claims      | isolated events      | burst or coordinated submissions |
+
+---
+
+### 8.6 UX Balance Strategy
+
+The system is designed to **avoid penalizing legitimate users**, especially during real disruptions.
+
+---
+
+**Low Risk**
+
+* instant payout
+
+---
+
+**Medium Risk**
+
+* passive verification
+* slight delay
+* no user friction
+
+---
+
+**High Risk**
+
+* temporary hold
+* deeper analysis using graph and behavioral signals
+* transparent status shown to user
+
+---
+
+### 8.7 Failure Handling
+
+To account for real-world issues like poor connectivity:
+
+* temporary network drops do not immediately reduce trust
+* decisions rely on historical behavior, not single events
+* users are not blocked solely due to missing signals
+
+**Principle:**
+Uncertainty leads to delay, not rejection.
+
+---
+
+### 8.8 Outcome
+
+This approach ensures:
+
+* resilience against coordinated fraud attacks
+* detection of spoofing beyond GPS manipulation
+* fair treatment of genuine users under real disruptions
+
+The system shifts from **location validation → behavioral verification**, making large-scale exploitation significantly harder.
+
+
+---
+
+## 9. Intelligent Claim Flow
 
 ```mermaid
 flowchart TD
@@ -221,8 +321,7 @@ flowchart TD
 
 ---
 
-
-## 🧱 System Architecture  
+## 10. System Architecture
 
 ```mermaid
 graph TD
@@ -267,7 +366,7 @@ graph TD
 
 ---
 
-## 🔄 Full Workflow
+## 11. End-to-End Workflow
 
 ```mermaid
 flowchart TD
@@ -320,60 +419,131 @@ flowchart TD
     R --> S[Dashboard Updated]
 ```
 
+---
+
+## 12. Dashboard
+
+### Worker
+
+* coverage status
+* earnings protected
+* claim history
+
+### Admin
+
+* fraud alerts
+* risk heatmaps
+* loss analytics
+* predictive insights
 
 ---
 
-## 📈 Dashboard
+## 13. Technology Stack
 
-### 👷 Worker
- - Earnings protected
-
- - Active coverage
-
- - Claim history
-
-### 🏢 Admin
- - Fraud alerts
- - Risk heatmaps
- - Loss analytics
- - Predictive insights
+The system is designed as a real-time decision platform with a focus on behavioral analysis and fraud detection.
 
 ---
 
-## 🛠️ Tech Stack
+### Core Stack
 
-- Frontend: React / Next.js
-- Backend: Node.js / FastAPI
-- Database: PostgreSQL / MongoDB
-- AI/ML: Python (Scikit-learn / XGBoost)
-- APIs: Weather + Mock APIs
-- Payments: Razorpay (Sandbox)
-
----
-
-## 🚀 Deliverables Covered
-
-✔ Persona workflow
-
-✔ Weekly pricing model
-
-✔ Parametric triggers
-
-✔ AI risk engine
-
-✔ Fraud detection system
-
-✔ Adversarial defense
-
-✔ Architecture design
+* Backend: FastAPI (Python)
+* Frontend: React (Vite)
+* Database: PostgreSQL
+* Caching: Redis
+* Payments: Razorpay (Sandbox)
+* Deployment: Docker, AWS / GCP
 
 ---
 
-## 🔮 Future Scope
+### AI / Machine Learning
 
-- Federated fraud learning
-- Blockchain claim validation
-- Platform partnerships
+#### Risk Modeling
+
+* XGBoost-based scoring model
+* Inputs:
+
+  * location risk
+  * historical disruptions
+  * user activity patterns
+* Outputs:
+
+  * dynamic weekly premium
+  * baseline risk score
 
 ---
 
+#### Behavioral Modeling
+
+* delivery frequency
+* session timing
+* movement consistency
+* baseline profile per user
+
+---
+
+#### Anomaly Detection
+
+* Isolation Forest
+* detects:
+
+  * abnormal inactivity
+  * irregular claim timing
+  * activity-disruption mismatch
+
+---
+
+#### Fraud Detection
+
+* rule-based validation
+* anomaly scoring
+* lightweight graph clustering
+
+---
+
+#### Trust Scoring
+
+```
+Trust Score = f(
+  location integrity,
+  behavioral consistency,
+  anomaly score,
+  peer correlation
+)
+```
+
+Drives:
+
+* claim approval
+* verification level
+* fraud flagging
+
+---
+
+### System Design Approach
+
+* async APIs
+* event-driven evaluation
+* ML integrated into request flow
+* minimal architecture for low latency
+
+---
+
+## 14. Deliverables
+
+* persona-based workflow
+* pricing model
+* parametric trigger system
+* AI-based risk engine
+* fraud detection system
+* adversarial defense strategy
+* system architecture
+
+---
+
+## 15. Future Scope
+
+* federated fraud learning
+* blockchain-based claim validation
+* integration with delivery platforms
+
+---
